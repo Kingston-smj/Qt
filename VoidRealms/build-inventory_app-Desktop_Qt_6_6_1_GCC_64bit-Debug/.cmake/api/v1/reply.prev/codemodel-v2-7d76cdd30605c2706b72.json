@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a940a84338e6770c8ec0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "inventory_app",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "inventory_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inventory_app-Debug-e64a3fd528dcdca8e315.json",
+					"name" : "inventory_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inventory_app_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inventory_app_autogen-Debug-f024a4a0dc903857b41d.json",
+					"name" : "inventory_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inventory_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inventory_app_autogen_timestamp_deps-Debug-20cca162c4303a6be668.json",
+					"name" : "inventory_app_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+		"source" : "/home/kingston/repos/Qt/VoidRealms/inventory_app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

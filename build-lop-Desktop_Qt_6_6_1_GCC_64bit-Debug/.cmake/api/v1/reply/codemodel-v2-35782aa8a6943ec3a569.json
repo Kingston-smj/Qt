@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c1f9d3de611f1ae87602.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lop-Debug-795513df6ed15df5dec3.json",
+					"name" : "lop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lop_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lop_autogen-Debug-01d0b8982f07d416eb45.json",
+					"name" : "lop_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lop_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lop_autogen_timestamp_deps-Debug-913e9401567f1545f4ec.json",
+					"name" : "lop_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kingston/repos/Qt/build-lop-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+		"source" : "/home/kingston/repos/Qt/lop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

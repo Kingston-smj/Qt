@@ -1,0 +1,9 @@
+# ninja log v5
+0	486	1710991571699745131	inventory_app_autogen/timestamp	e00e4b06df4eb58
+0	486	1710991571699745131	inventory_app_autogen/mocs_compilation.cpp	e00e4b06df4eb58
+0	486	1710991571699745131	/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/timestamp	e00e4b06df4eb58
+0	486	1710991571699745131	/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/mocs_compilation.cpp	e00e4b06df4eb58
+486	3820	1710991575039745108	CMakeFiles/inventory_app.dir/main.cpp.o	189fd4389dba2b97
+488	4199	1710991575419745105	CMakeFiles/inventory_app.dir/inventory.cpp.o	c3f3ad4cee472075
+487	4241	1710991575459745105	CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o	d1c8f98419998086
+4241	4425	1710991575643745104	inventory_app	d70506cd5a03f86d
