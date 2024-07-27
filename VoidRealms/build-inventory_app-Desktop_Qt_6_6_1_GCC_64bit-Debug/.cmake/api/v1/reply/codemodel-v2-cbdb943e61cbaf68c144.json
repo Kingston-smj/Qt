@@ -58,7 +58,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "inventory_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-inventory_app_autogen_timestamp_deps-Debug-20cca162c4303a6be668.json",
+					"jsonFile" : "target-inventory_app_autogen_timestamp_deps-Debug-e606a7f4246aba63c0bf.json",
 					"name" : "inventory_app_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -74,6 +74,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

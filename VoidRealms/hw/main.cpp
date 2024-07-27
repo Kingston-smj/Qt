@@ -30,8 +30,8 @@ void do_both(){
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    //do_cpp();
+    do_cpp();
     //do_qt();
-    do_both();
+   // do_both();
     return a.exec();
 }

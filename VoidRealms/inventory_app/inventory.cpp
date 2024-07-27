@@ -32,7 +32,7 @@ void inventory::list()
 {
     qInfo() << "Items: " << m_items.size();
     foreach (QString key, m_items.keys()) {
-        qInfo() << key << " - " << m_items.value(key);
+        qInfo() << key << " = " << m_items.value(key);
     }
 }
 
