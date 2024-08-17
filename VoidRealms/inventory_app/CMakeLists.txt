@@ -15,6 +15,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 add_executable(inventory_app
   main.cpp
   inventory.h inventory.cpp
+  mainwindow.ui
 )
 target_link_libraries(inventory_app Qt${QT_VERSION_MAJOR}::Core)
 

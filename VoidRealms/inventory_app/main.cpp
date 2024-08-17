@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
     qInfo() << "list";
     qInfo() << "quit";
 
+    inventory Inventory;
+
     QTextStream stream(stdin);
 
     while (true){
@@ -26,9 +28,9 @@ int main(int argc, char *argv[])
             a.exit(0);
             break;
         }
-        if (command == "LIST") inventory.list();
-        if (command == "LOAD") inventory.load();
-        if (command == "SAVE") inventory.save();
+        if (command == "LIST"){ Inventory.list();}
+        if (command == "LOAD"){ Inventory.load();}
+        if (command == "SAVE") {Inventory.save();}
 
         if(command == "ADD" || command == "REMOVE"){
             if(list.size() < 3){
@@ -43,11 +45,11 @@ int main(int argc, char *argv[])
                 qWarning() << "invalid quatity";
                 continue;
             }
-            if(command == "ADD") inventory.add(name,qty);
-            if (command == "REMOVE") inventory.remove(name,qty);
+            if(command == "ADD") {Inventory.add(name,qty);}
+            if (command == "REMOVE") {Inventory.remove(name,qty);}
         }
     }
-    inventory.save();
+    Inventory.save();
     qInfo() << "Complete";
     return a.exec();
 }

@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen",
-	"CMAKE_BINARY_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+	"BUILD_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen",
+	"CMAKE_BINARY_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/kingston/repos/Qt/VoidRealms/inventory_app",
 	"CMAKE_EXECUTABLE" : "/home/kingston/Qt/Tools/CMake/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/kingston/repos/Qt/VoidRealms/inventory_app/CMakeLists.txt",
-		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/.qtc/package-manager/auto-setup.cmake",
+		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.29.3/CMakeSystem.cmake",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake",
-		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
@@ -111,7 +111,7 @@
 	],
 	"CMAKE_SOURCE_DIR" : "/home/kingston/repos/Qt/VoidRealms/inventory_app",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/deps",
+	"DEP_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "inventory_app_autogen/timestamp",
 	"HEADERS" : 
 	[
@@ -123,9 +123,9 @@
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB" ],
+	"INCLUDE_DIR" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -165,17 +165,17 @@
 		"-c",
 		"/home/kingston/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/inventory_app_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/inventory_app_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/kingston/Qt/6.6.1/gcc_64/./libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/inventory_app_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/inventory_app_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[

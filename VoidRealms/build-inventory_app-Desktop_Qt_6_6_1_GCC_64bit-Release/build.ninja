@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: inventory_app
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/
+cmake_ninja_workdir = /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/
 # =============================================================================
 # Object build statements for EXECUTABLE target inventory_app
 
@@ -49,27 +49,27 @@ cmake_ninja_workdir = /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Des
 
 build cmake_object_order_depends_target_inventory_app: phony || inventory_app_autogen inventory_app_autogen/mocs_compilation.cpp inventory_app_autogen/timestamp inventory_app_autogen_timestamp_deps
 
-build CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o: CXX_COMPILER__inventory_app_unscanned_Debug /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_inventory_app
-  DEFINES = -DQT_CORE_LIB
+build CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o: CXX_COMPILER__inventory_app_unscanned_Release /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_inventory_app
+  DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG
   DEP_FILE = CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/inventory_app.dir
   OBJECT_FILE_DIR = CMakeFiles/inventory_app.dir/inventory_app_autogen
 
-build CMakeFiles/inventory_app.dir/main.cpp.o: CXX_COMPILER__inventory_app_unscanned_Debug /home/kingston/repos/Qt/VoidRealms/inventory_app/main.cpp || cmake_object_order_depends_target_inventory_app
-  DEFINES = -DQT_CORE_LIB
+build CMakeFiles/inventory_app.dir/main.cpp.o: CXX_COMPILER__inventory_app_unscanned_Release /home/kingston/repos/Qt/VoidRealms/inventory_app/main.cpp || cmake_object_order_depends_target_inventory_app
+  DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG
   DEP_FILE = CMakeFiles/inventory_app.dir/main.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/inventory_app.dir
   OBJECT_FILE_DIR = CMakeFiles/inventory_app.dir
 
-build CMakeFiles/inventory_app.dir/inventory.cpp.o: CXX_COMPILER__inventory_app_unscanned_Debug /home/kingston/repos/Qt/VoidRealms/inventory_app/inventory.cpp || cmake_object_order_depends_target_inventory_app
-  DEFINES = -DQT_CORE_LIB
+build CMakeFiles/inventory_app.dir/inventory.cpp.o: CXX_COMPILER__inventory_app_unscanned_Release /home/kingston/repos/Qt/VoidRealms/inventory_app/inventory.cpp || cmake_object_order_depends_target_inventory_app
+  DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG
   DEP_FILE = CMakeFiles/inventory_app.dir/inventory.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/include -isystem /home/kingston/Qt/6.6.1/gcc_64/include/QtCore -isystem /home/kingston/Qt/6.6.1/gcc_64/include -isystem /home/kingston/Qt/6.6.1/gcc_64/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/inventory_app.dir
   OBJECT_FILE_DIR = CMakeFiles/inventory_app.dir
 
@@ -81,8 +81,8 @@ build CMakeFiles/inventory_app.dir/inventory.cpp.o: CXX_COMPILER__inventory_app_
 #############################################
 # Link the executable inventory_app
 
-build inventory_app: CXX_EXECUTABLE_LINKER__inventory_app_Debug CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o CMakeFiles/inventory_app.dir/main.cpp.o CMakeFiles/inventory_app.dir/inventory.cpp.o | /home/kingston/Qt/6.6.1/gcc_64/lib/libQt6Core.so.6.6.1 || inventory_app_autogen inventory_app_autogen_timestamp_deps
-  FLAGS = -DQT_QML_DEBUG -g
+build inventory_app: CXX_EXECUTABLE_LINKER__inventory_app_Release CMakeFiles/inventory_app.dir/inventory_app_autogen/mocs_compilation.cpp.o CMakeFiles/inventory_app.dir/main.cpp.o CMakeFiles/inventory_app.dir/inventory.cpp.o | /home/kingston/Qt/6.6.1/gcc_64/lib/libQt6Core.so.6.6.1 || inventory_app_autogen inventory_app_autogen_timestamp_deps
+  FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -Wl,-rpath,/home/kingston/Qt/6.6.1/gcc_64/lib:  /home/kingston/Qt/6.6.1/gcc_64/lib/libQt6Core.so.6.6.1
   OBJECT_DIR = CMakeFiles/inventory_app.dir
   POST_BUILD = :
@@ -95,7 +95,7 @@ build inventory_app: CXX_EXECUTABLE_LINKER__inventory_app_Debug CMakeFiles/inven
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/ccmake -S/home/kingston/repos/Qt/VoidRealms/inventory_app -B/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/ccmake -S/home/kingston/repos/Qt/VoidRealms/inventory_app -B/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/kingston/repos/Qt/VoidRealms/inventory_app -B/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/kingston/repos/Qt/VoidRealms/inventory_app -B/home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -125,7 +125,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -137,7 +137,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -149,7 +149,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -173,9 +173,9 @@ build inventory_app_autogen: phony CMakeFiles/inventory_app_autogen inventory_ap
 # Custom command for inventory_app_autogen/timestamp
 
 build inventory_app_autogen/timestamp inventory_app_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}inventory_app_autogen/timestamp ${cmake_ninja_workdir}inventory_app_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /home/kingston/Qt/6.6.1/gcc_64/./libexec/moc || inventory_app_autogen_timestamp_deps
-  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug && /home/kingston/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/inventory_app_autogen.dir/AutogenInfo.json Debug && /home/kingston/Qt/Tools/CMake/bin/cmake -E touch /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/timestamp && /home/kingston/Qt/Tools/CMake/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/kingston/repos/Qt/VoidRealms/inventory_app /home/kingston/repos/Qt/VoidRealms/inventory_app /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/inventory_app_autogen/deps /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/d/c198e9bc5342a12449c3fd45034daa4f46b0f9e6d27c158f743b23210f5dd8a0.d
+  COMMAND = cd /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release && /home/kingston/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/inventory_app_autogen.dir/AutogenInfo.json Release && /home/kingston/Qt/Tools/CMake/bin/cmake -E touch /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/timestamp && /home/kingston/Qt/Tools/CMake/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/kingston/repos/Qt/VoidRealms/inventory_app /home/kingston/repos/Qt/VoidRealms/inventory_app /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/inventory_app_autogen/deps /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/d/c06bde77186d4da2ee7240c0a21aabd63886af39296eb1f4482432e54c87464f.d
   DESC = Automatic MOC and UIC for target inventory_app
-  depfile = CMakeFiles/d/c198e9bc5342a12449c3fd45034daa4f46b0f9e6d27c158f743b23210f5dd8a0.d
+  depfile = CMakeFiles/d/c06bde77186d4da2ee7240c0a21aabd63886af39296eb1f4482432e54c87464f.d
   deps = gcc
   restat = 1
 
@@ -194,7 +194,7 @@ build CMakeFiles/inventory_app_autogen inventory_app_autogen/include/ui_mainwind
 # =============================================================================
 
 #############################################
-# Folder: /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Debug
+# Folder: /home/kingston/repos/Qt/VoidRealms/build-inventory_app-Desktop_Qt_6_6_1_GCC_64bit-Release
 
 build all: phony inventory_app
 
@@ -219,7 +219,7 @@ build .qtc/package-manager/auto-setup.cmake /home/kingston/Qt/6.6.1/gcc_64/lib/c
 # Clean additional files.
 
 build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
-  CONFIG = Debug
+  CONFIG = Release
 
 
 #############################################
