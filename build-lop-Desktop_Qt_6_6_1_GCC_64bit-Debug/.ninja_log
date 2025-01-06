@@ -1,0 +1,10 @@
+# ninja log v6
+2	614	1727009645280429586	build.ninja	fa994aae354adbb8
+3	322	1727009645620439489	lop_autogen/timestamp	bdebcf3703c7a884
+3	322	1727009645620439489	lop_autogen/mocs_compilation.cpp	bdebcf3703c7a884
+3	322	1727009645620439489	/home/kingston/repos/Qt/build-lop-Desktop_Qt_6_6_1_GCC_64bit-Debug/lop_autogen/timestamp	bdebcf3703c7a884
+3	322	1727009645620439489	/home/kingston/repos/Qt/build-lop-Desktop_Qt_6_6_1_GCC_64bit-Debug/lop_autogen/mocs_compilation.cpp	bdebcf3703c7a884
+325	2799	1727009645632439837	CMakeFiles/lop.dir/mainwindow.cpp.o	c40ae07ad61cb68a
+324	3590	1727009645628439722	CMakeFiles/lop.dir/lop_autogen/mocs_compilation.cpp.o	211d5c45b446b1af
+325	3632	1727009645632439837	CMakeFiles/lop.dir/main.cpp.o	db5b35260395b267
+3632	4092	1727009648936536069	lop	8631120b4ded9e0d

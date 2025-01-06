@@ -10,7 +10,7 @@ int GameFunctions::rollDice() {
     return std::rand() % 6 + 1;  // Returns a number between 1 and 6
 }
 
-// Function to validate a player's answer
+// Function to validate a player's_answer
 bool GameFunctions::validateAnswer(const std::string& answer, const std::string& correctAnswer) {
     std::string answerLower = answer;
     std::string correctAnswerLower = correctAnswer;

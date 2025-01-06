@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lop::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lop-Debug-795513df6ed15df5dec3.json",
+					"jsonFile" : "target-lop-Debug-0a5fdf71cfb582f36e23.json",
 					"name" : "lop",
 					"projectIndex" : 0
 				},
@@ -58,7 +58,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lop_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lop_autogen_timestamp_deps-Debug-913e9401567f1545f4ec.json",
+					"jsonFile" : "target-lop_autogen_timestamp_deps-Debug-b2b720fceefe30e515d4.json",
 					"name" : "lop_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -74,6 +74,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

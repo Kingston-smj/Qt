@@ -115,8 +115,8 @@ public:
     GameSetup(const string& name, int lives, int questions) 
         : playerName(name), maxLives(lives), maxQuestions(questions) {
        
-        vector<string> filenames = {"category1.csv", "category2.csv", "category3.csv", 
-                                              "category4.csv", "category5.csv", "category6.csv"};
+        vector<string> filenames = {"Geography.csv", "history.csv", "movie.csv", 
+                                              "science.csv", "sport.csv"};
         for (const auto& filename : filenames) {
             categories.push_back(FileReader::readQuestionsFromFile(filename));
         }
@@ -125,6 +125,7 @@ public:
     void start() {
         int lives = maxLives;
         int correctAnswers = 0;
+        //cout << "Select category";
 
         while (lives > 0 && correctAnswers < maxQuestions) {
             cout << "Type 'roll' to roll the dice: ";
@@ -170,8 +171,10 @@ public:
 int main() {
     string playerName;
     int lives, questions;
+    
+   // string filename = "questions.csv";
 
-    cout << "Enter player name: ";
+    cout << "Select category \n Enter player name: ";
     getline(cin, playerName);
 
     cout << "Enter number of lives: ";
